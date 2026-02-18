@@ -34,7 +34,6 @@ h2{
     color: var(--Rose-800)
 }
 body{
-
     background-color: var(--Stone-100);
     font-family: var(--ff-body);
     line-height: 1.8;
@@ -44,15 +43,15 @@ body{
     justify-content: center;
     
 }
+footer{
+    padding: 10px;
+}
 main{
     padding: 20px 30px;
     background-color: var(--White);
     max-width: 700px;
     color: var(--Stone-600);
     border-radius: 20px;
-}
-footer{
-    padding: 10px;
 }
 img{
     width: 100%;
@@ -67,11 +66,11 @@ ol >li::marker{
 li{
     padding-left: 10px;
 }
-div{
+section{
     padding: 20px 0;
     margin: 0 5px;
 }
-div:nth-child(2){
+section:nth-child(2){
     background-color: var(--Rose-50);
     padding: 20px;
     border-radius: 10px;
@@ -103,5 +102,4 @@ td:last-child{
     main{
         margin: 50px 20px;
     }
-
 }
